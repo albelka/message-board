@@ -4,5 +4,7 @@
 
 <h3>Answers:</h3>
 <ul>
-  <li>{{answer.author}} replied: {{answer.content}}</li>
+{{#each question.answers as |answer|}}
+  {{answer-tile answer=answer}}
+  {{/each}}
 </ul>
