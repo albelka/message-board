@@ -1,1 +1,11 @@
-{{outlet}}
+<h2>Ask and ye shall receive a response of questionable validity</h2>
+
+<h3>On the Table</h3>
+
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>
+
+{{new-question saveQuestion="saveQuestion"}}

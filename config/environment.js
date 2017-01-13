@@ -10,13 +10,14 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
+        }
       },
-      firebase: {
-        apiKey: "AIzaSyA7flHlzcrcS_RgzQKzEVULPUQMxXcWgyY",
-        authDomain: "message-board-f2869.firebaseapp.com",
-        databaseURL: "https://message-board-f2869.firebaseio.com",
-        storageBucket: "message-board-f2869.appspot.com",
-        messagingSenderId: "801427486903"
+    firebase: {
+      apiKey: "AIzaSyA7flHlzcrcS_RgzQKzEVULPUQMxXcWgyY",
+      authDomain: "message-board-f2869.firebaseapp.com",
+      databaseURL: "https://message-board-f2869.firebaseio.com",
+      storageBucket: "message-board-f2869.appspot.com",
+      messagingSenderId: "801427486903"
     },
 
     APP: {
