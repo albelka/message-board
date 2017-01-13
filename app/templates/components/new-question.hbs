@@ -17,9 +17,9 @@
         {{input value=notes id="notes"}}
       </div>
 
-      <button {{action 'saveQuestion'}}>Ask</button>
+      <button class="btn btn-info" {{action 'saveQuestion'}}>Ask</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'questionFormShow'}}>Ask a question</button>
+  <button class="btn btn-info" {{action 'questionFormShow'}}>Ask a question</button>
 {{/if}}

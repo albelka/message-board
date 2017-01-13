@@ -11,9 +11,9 @@
         {{input value=content id="content"}}
       </div>
 
-      <button {{action 'saveAnswer'}}>Submit</button>
+      <button class="btn btn-info" {{action 'saveAnswer'}}>Submit</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'answerFormShow'}}>I know this</button>
+  <button class="btn btn-info" {{action 'answerFormShow'}}>I know this</button>
 {{/if}}

@@ -6,7 +6,24 @@
 }
 
 body {
-  background: radial-gradient(#FDFDD4, #F3FDD4);
+  background: radial-gradient(#D4FDE9, #F3FDD4);
   margin: 10px;
+}
 
+.navbar-brand img {
+  height: inherit;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+
+.navbar {
+  background-color: #859E92;
+}
+
+.btn {
+  background-color: #859E92 !important;
+}
+
+.navbar-nav {
+  background-color: #FDE9D4;
 }
