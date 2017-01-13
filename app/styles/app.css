@@ -12,18 +12,16 @@ body {
 
 .navbar-brand img {
   height: inherit;
-  padding-bottom: 16px;
+  padding-top: 0px;
+  padding-bottom: 20px;
   padding-left: 16px;
+  border-radius: 5px;
 }
 
 .navbar {
-  background-color: #859E92;
+  background-color: ivory;
 }
 
 .btn {
   background-color: #859E92 !important;
-}
-
-.navbar-nav {
-  background-color: #FDE9D4;
 }
