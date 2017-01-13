@@ -1,7 +1,6 @@
 # message-board
 
-This README outlines the details of collaborating on this Ember application.
-A simple application that allows a user to ask or answer a question with update functionality.
+Message-board is a simple application written Ember that allows a user to ask or answer questions with update functionality.
 
 ## Prerequisites
 
