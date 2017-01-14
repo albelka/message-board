@@ -1,6 +1,6 @@
 # message-board
 
-Message-board is a simple application utilizing Ember. Message-board allows a user to ask or answer questions with update functionality.
+Message-board is a simple application utilizing Ember. Message-board allows a user to ask or answer questions with update functionality and demonstrates a one-to-many data relationship between question and answers.
 
 ## Prerequisites
 
@@ -18,6 +18,7 @@ You will need the following things properly installed on your computer.
 * `cd message-board`
 * `npm install`
 * `bower install`
+
 
 ## Running / Development
 
